@@ -1,0 +1,18 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/6102e7dd4aca585790050808
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Donny",
+    "subscriberToChannel": "Superdaves channel"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/6102e7dd4aca585790050808
